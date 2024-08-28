@@ -1,0 +1,219 @@
+/* General Styles */
+* {
+    box-sizing: border-box;
+    font-family: Monaco, sans-serif;
+    color: #E3E3E3;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Body Styles */
+  body {
+    margin: 0;
+    background-color: #00296D;
+  }
+  
+  /* Header Styles */
+  #navbar {
+    background: linear-gradient(#00296D 70%, #001539);
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  navbar {
+    display: flex;
+    justify-content: center;
+  
+  }
+  
+  a {
+    padding: 0 10px;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  #navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Welcome Section Styles */
+  #welcome-section {
+    height: 100vh;
+    background: linear-gradient(#004ED0 5%, #00296D);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0;
+  }
+  
+  p {
+    margin: 100px 30% 0 30%;
+    line-height: 1.6;
+    background-color: #001539;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  h1 {
+    font-size: 40px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  /* Projects Section Styles */
+  #projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Add space between projects */
+    padding: 40px 20px; /* Add padding for better spacing */
+    margin-top: 100px; /* Space from the header */
+  }
+  
+  .project-tile {
+    text-align: center;
+    background-color: #001539;
+    height: 300px;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .project-tile:hover {
+    transform: scale(1.05); /* Add a hover effect */
+  }
+  
+  .project-title {
+    padding: 15px 10px;
+    font-size: 20px;
+  }
+  
+  /* Project Image Styles */
+  #projects img {
+    width: 100%;
+    height: 225px;
+    object-fit: cover;
+    background-position: center;
+  }
+  
+  /* Profile Link Style */
+  #profile-link {
+    background-color: #001539;
+    padding: 20px 40px;
+    border-radius: 8px;
+    text-align: center;
+    display: inline-block;
+    transition: transform 0.3s ease;
+    color: #E3E3E3;
+    text-decoration: none;
+  }
+  
+  #profile-link:hover {
+    transform: scale(1.05);
+  }
+  
+  #profile-link-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-top: 40px;
+  }
+  
+  /* Contact Section Styles */
+  #contact-section {
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 40px;
+    background: linear-gradient(#00296D, #001539);
+  }
+  
+  #contact-section h2 {
+    margin-bottom: 10px;
+  }
+  
+  #contact-section p {
+    margin-bottom: 20px;
+  }
+  
+  #contact-section a {
+    color: #E3E3E3;
+    font-size: 18px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .contact-icon {
+    width: 24px;
+    height: 24px;
+  }
+  
+  /* Media Query for Smaller Screens */
+  @media (max-width: 768px) {
+    /* Adjust the welcome section */
+    #welcome-section {
+      height: auto;
+      padding: 80px 20px 40px 20px;
+      
+    }
+  
+    h1 {
+      font-size: 32px;
+    }
+  
+    h2 {
+      font-size: 24px;
+    }
+  
+    p {
+      margin: 20px 5% 0 5%;
+      font-size: 16px;
+    }
+  
+    /* Adjust the projects section */
+    #projects {
+      flex-direction: column;
+      padding: 20px;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .project-tile {
+      width: 100%;
+      height: auto;
+    }
+  
+    /* Adjust the profile link section */
+    .profile-link-div {
+      height: auto;
+      margin-top: 20px;
+    }
+  
+    #profile-link {
+      padding: 15px 20px;
+      font-size: 16px;
+    }
+  
+    /* Adjust the contact section */
+    #contact-section {
+      padding: 20px 10px;
+    }
+  
+    #contact-section a {
+      font-size: 16px;
+    }
+  }
+  
