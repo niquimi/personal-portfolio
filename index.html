@@ -37,7 +37,7 @@
       <div class="row align-items-center">
         <div class="col-lg-6 text-center mb-4 mb-lg-0">
           <div class="portrait-container">
-            <img src="https://via.placeholder.com/400x500/1e3a8a/ffffff?text=Portrait" alt="Nicolás García" class="portrait-img">
+            <img src="./src/img/portrait_nicolas.jpg" alt="Nicolás García" class="portrait-img">
           </div>
         </div>
         <div class="col-lg-6">
@@ -60,34 +60,84 @@
       <h2 class="text-center mb-5">Projects</h2>
       <div class="row g-4">
         <div class="col-md-6 col-lg-4">
-          <a href="https://niquimi.github.io/documentation-page/" target="_blank" class="text-decoration-none">
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#technicalDocumentationModal">
             <div class="project-card">
               <img src="https://i.imgur.com/qtQse3j.png" alt="Technical Documentation" class="project-img">
               <div class="project-content">
                 <h3 class="project-title">Technical Documentation</h3>
               </div>
             </div>
-          </a>
+          </button>
+          <div class="modal fade" id="technicalDocumentationModal" tabindex="-1" aria-labelledby="technicalDocumentationModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="technicalDocumentationModalLabel">Technical Documentation</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="https://i.imgur.com/qtQse3j.png" alt="Technical Documentation" class="project-img">
+                  <p>This is a technical documentation page for a project I worked on. It's a simple page that I built to practice my skills with HTML and CSS.</p>
+                </div>
+                <div class="modal-footer">
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="col-md-6 col-lg-4">
-          <a href="https://niquimi.github.io/landing-page/" target="_blank" class="text-decoration-none">
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#landingPageModal">
             <div class="project-card">
               <img src="https://i.imgur.com/jZZY9cy.png" alt="Landing Page Project" class="project-img">
               <div class="project-content">
                 <h3 class="project-title">Landing Page</h3>
               </div>
             </div>
-          </a>
+          </button>
+          <div class="modal fade" id="landingPageModal" tabindex="-1" aria-labelledby="landingPageModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="landingPageModalLabel">Landing Page</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="https://i.imgur.com/jZZY9cy.png" alt="Landing Page Project" class="project-img">
+                  <p>This is a landing page project that I created to showcase my skills in HTML and CSS. It features a modern design with responsive layout.</p>
+                </div>
+                <div class="modal-footer">
+                  <a href="https://niquimi.github.io/landing-page/" target="_blank" class="btn btn-primary">View Project</a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="col-md-6 col-lg-4">
-          <a href="https://niquimi.github.io/roman-numeral-converter/" target="_blank" class="text-decoration-none">
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#romanNumeralModal">
             <div class="project-card">
               <img src="https://i.imgur.com/ZTJ20ux_d.jpg?maxwidth=520&shape=thumb&fidelity=high" alt="Roman Numeral Converter Project" class="project-img">
               <div class="project-content">
                 <h3 class="project-title">Roman Numeral Converter</h3>
               </div>
             </div>
-          </a>
+          </button>
+          <div class="modal fade" id="romanNumeralModal" tabindex="-1" aria-labelledby="romanNumeralModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="romanNumeralModalLabel">Roman Numeral Converter</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="https://i.imgur.com/ZTJ20ux_d.jpg?maxwidth=520&shape=thumb&fidelity=high" alt="Roman Numeral Converter Project" class="project-img">
+                  <p>This is a Roman numeral converter application that I built using JavaScript. It converts between decimal numbers and Roman numerals with a user-friendly interface.</p>
+                </div>
+                <div class="modal-footer">
+                  <a href="https://niquimi.github.io/roman-numeral-converter/" target="_blank" class="btn btn-primary">View Project</a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div class="text-center mt-5">
